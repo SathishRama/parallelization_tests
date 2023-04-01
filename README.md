@@ -11,8 +11,5 @@ Objective is to process around 1.2M rows. A simple mutiple of two values and sum
 # Observations
 The results may vary for each experiment but on average 2-5x improvement observed using GPU vs looping for basic multiplication of two numbers & summing total
 
-Number of cpu's:1 gpu's:1 in the runtime.
-Time with Loop logic: 0.009 for 2424 iterations with 490 rows in each iteration. Rows processed 1187760
-GPU time: 0.0029357990006246837 for 1187760 rows
-Using Looping code vs TF CPU : 0.284 x improvement for 1187760 rows processed
-Using Looping code vs TF GPU : 3.066 x improvement for 1187760 rows processed
+![image](https://user-images.githubusercontent.com/26101449/229294329-26eec17e-8082-4ca0-be42-bb005ac269ba.png)
+
